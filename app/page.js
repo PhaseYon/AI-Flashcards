@@ -1,4 +1,5 @@
-import { Container } from "@mui/material";
+import { Container, Toolbar, AppBar, Typography, Button, Box, Grid } from "@mui/material";
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import Image from "next/image";
 
 export default function Home() {
