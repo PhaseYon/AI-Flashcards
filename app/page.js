@@ -36,7 +36,27 @@ export default function Home() {
     <Box sx={{my: 6}}>
       <Typography variant="h4" component="h2" gutterBottom>Features</Typography>
       <Grid container spacing={4}>
-        {/* Feature items */}
+        <Grid item xs={12} md={4}>
+          <Typography variant="h6">Easy Text Input</Typography>
+          <Typography>
+            {' '}
+            Simply input your text and let our software do the rest. Creating flashcards has never been easier.
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Typography variant="h6">Accessible Anywhere</Typography>
+          <Typography>
+            {' '}
+            Access  your flashcards from any device, at any time. Study on the go with ease.
+          </Typography>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Typography variant="h6">Smart Flashcards</Typography>
+          <Typography>
+            {' '}
+            Our Ai intelligently breaks down your text into concise flashcards, perfect for studying.
+          </Typography>
+        </Grid>
       </Grid>
     </Box>
     <Box sx={{my: 6, textAlign: 'center'}}>
